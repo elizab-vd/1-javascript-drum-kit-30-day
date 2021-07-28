@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  background: url('./img/john-matychuk-gUK3lA3K7Yo-unsplash.jpg') bottom center;
   background-size: cover;
 }
 
@@ -8,19 +8,24 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+body {
+  margin-top: 8rem;
+
 }
 
 .keys {
   display: flex;
   flex: 1;
   min-height: 100vh;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 }
 
 .key {
-  border: .4rem solid black;
+  border: .37rem solid #0f0f0e;
   border-radius: 1.5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -28,27 +33,37 @@ body,html {
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  color: #d1cfcb;
+  background: rgba(43,42,39, 0.9);
+  
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #bb1a10;
+  box-shadow: 0 0 0.5rem #bb1a10;
 }
 
 kbd {
   display: block;
   font-size: 4rem;
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
+  font-family: Roboto Slab, sans-serif;
 }
 
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color:#bb1a10;
+}
+
+.img-attribution,
+.img-attribution a {
+  color: white;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.img-attribution {
+  margin: 1rem;
 }
